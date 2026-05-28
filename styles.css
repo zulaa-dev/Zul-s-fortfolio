@@ -6,7 +6,6 @@
 }
 body{
     background-color: rgba(241, 221, 231, 0.782);
-    padding-top: 3rem;
 }
 nav{
     background-color: hsl(173, 38%, 62%);
@@ -220,7 +219,10 @@ footer{
     margin-top: 20px;
 }
 @media (max-width: 768px) {
-  nav {
+  body {
+    padding-top: 0;
+  }
+    nav {
     height: auto;
     padding: 0.7rem 0.5rem;
   }
