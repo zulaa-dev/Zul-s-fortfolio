@@ -6,6 +6,7 @@
 }
 body{
     background-color: rgba(241, 221, 231, 0.782);
+    padding-top: 3rem;
 }
 nav{
     background-color: hsl(173, 38%, 62%);
@@ -235,4 +236,12 @@ footer{
   nav a {
     font-size: 0.9rem;
   }
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+section {
+  padding: 4rem 1rem;
 }
