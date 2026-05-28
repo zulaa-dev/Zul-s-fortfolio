@@ -95,7 +95,7 @@ nav a:hover{
     box-shadow: 0 15px 35px rgba(0,0,0,0.4);
 }
 section{
-    padding: 5rem, 2rem;
+    padding: 5rem 2rem;
 }
 .container{
     max-width: 1200px;
@@ -219,16 +219,12 @@ footer{
     margin-top: 20px;
 }
 @media (max-width: 768px) {
-  body {
-    padding-top: 0;
-  }
-    nav {
+  nav {
     height: auto;
     padding: 0.7rem 0.5rem;
   }
 
   nav ul {
-    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
@@ -241,13 +237,17 @@ footer{
     font-size: 0.85rem;
   }
 
-  .hero h1 {
+  #hero {
+    padding-top: 3rem;
+  }
+
+  .hero-content h1 {
     font-size: 2.2rem;
     line-height: 1.1;
   }
 
-  .hero p {
+  .hero-content p {
     font-size: 1.1rem;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
   }
 }
