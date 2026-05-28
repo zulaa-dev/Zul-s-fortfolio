@@ -266,4 +266,22 @@ footer{
     height: 220px;
     object-fit: cover;
   }
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+    padding: 0 1rem;
+    gap: 1.5rem;
+  }
+
+  .profilepicture {
+    width: 220px;
+    height: 220px;
+  }
+
+  #about p {
+    font-size: 1rem;
+    line-height: 1.6;
+    max-width: 330px;
+    margin: 0 auto;
+  }
 }
