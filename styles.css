@@ -222,26 +222,30 @@ footer{
 @media (max-width: 768px) {
   nav {
     height: auto;
-    padding: 1rem;
+    padding: 0.7rem 0.5rem;
   }
 
   nav ul {
-    flex-direction: column;
-    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: 0.8rem;
-    margin-top: 0.5rem;
+    gap: 0.7rem;
+    margin-top: 0;
+    padding: 0;
   }
 
   nav a {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
-}
-img {
-  max-width: 100%;
-  height: auto;
-}
 
-section {
-  padding: 4rem 1rem;
+  .hero h1 {
+    font-size: 2.2rem;
+    line-height: 1.1;
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+    letter-spacing: 2px;
+  }
 }
