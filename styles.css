@@ -94,6 +94,11 @@ nav a:hover{
     transform: translateY(-5px) scale(1.05);
     box-shadow: 0 15px 35px rgba(0,0,0,0.4);
 }
+#about p{
+    line-height: 1.8;
+    font-size: 1.2rem;
+    text-align: justify;
+}
 section{
     padding: 5rem 2rem;
 }
@@ -249,6 +254,12 @@ footer{
   .hero-content p {
     font-size: 1.1rem;
     letter-spacing: 1px;
+  }
+  #about p {
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.8;
+    padding: 0 1rem;
   }
   .projects-grid {
     grid-template-columns: 1fr;
